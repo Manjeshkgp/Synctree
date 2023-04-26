@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Banner from './components/banner/Banner'
 import BannerContents from './components/banner/BannerContents'
 import * as contents from "./content/Home";
+import AllFAQs from './components/FAQ/AllFAQs';
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,5 +21,6 @@ export default function Home() {
         <Banner variant="rightContent" background="lightGray">
           <BannerContents heading={contents.banner4heading} paragraph={contents.banner4pargraph} input={false} />
         </Banner>
+        <AllFAQs/>
   </main>)
 }

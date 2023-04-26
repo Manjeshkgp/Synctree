@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Metadata } from "next";
+import Providers from "./components/Themeprovider";
 import Header from "./components/header/Header";
+import Themechanger from "./components/Themechanger";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,10 +17,13 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <div className="overflow-x-hidden">
-          <Header />
-          {children}
-        </div>
+        <Providers>
+          <div className="overflow-x-hidden">
+            <Header />
+            <Themechanger />
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );

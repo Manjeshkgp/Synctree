@@ -9,3 +9,6 @@ export const banner3heading:string = "Share your Synctree from your Instagram, T
 export const banner3pargraph:string = "Add your unique Synctree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online."
 export const banner4heading:string = "Analyze your audience and keep your followers engaged";
 export const banner4pargraph:string = "Track your engagement over time, monitor revenue and learn what’s converting your audience. Make informed updates on the fly to keep them coming back.";
+export const homeCard1content:string = "Connect with all the Important Meta Applications like FB, Insta, etc."
+export const homeCard2content:string = "Connect with Twitch, Twitter or Medium and share your video/post links."
+export const homeCard3content:string = "Connect with Google, Messenger or your Youtube Channel and gain more subs."

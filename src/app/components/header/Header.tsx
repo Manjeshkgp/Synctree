@@ -86,12 +86,12 @@ const Header: FC<HeaderProps> = ({}) => {
           </div>
         </div>
         <div className="flex justify-center items-center gap-x-2 md:gap-x-4">
-          <Button className="md:px-6 z-40" variant="primary">
+         <Link href="/login"><Button className="md:px-6 z-40" variant="primary">
             Log In
-          </Button>
-          <Button className="md:px-6 z-40" variant="secondary">
+          </Button></Link>
+          <Link href="/signup"><Button className="md:px-6 z-40" variant="secondary">
             Sign Up
-          </Button>
+          </Button></Link>
           <Button
             onClick={() => {
               setOpen(!open);

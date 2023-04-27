@@ -18,7 +18,7 @@ export default function RootLayout({
     <html>
       <body>
         <Providers>
-          <div className="overflow-x-hidden">
+          <div className="overflow-x-hidden bg-[#F3F3F1] text-[#030301] dark:bg-[#030301] dark:text-[#F3F3F1]">
             <Header />
             <Themechanger />
             {children}

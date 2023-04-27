@@ -7,7 +7,7 @@ interface HomecardsProps {
 }
 
 const Homecards: FC<HomecardsProps> = ({icons,content}) => {
-  return (<div className='bg-white dark:bg-gray-950 text-gray-950 dark:text-white w-[96%] md:w-[48%] lg:w-[25%] rounded-lg p-4 h-96 flex flex-col items-center justify-start border-2 border-gray-400 border-opacity-20'>
+  return (<div className='hover:scale-105 transition-all bg-white dark:bg-gray-950 text-gray-950 dark:text-white w-[96%] md:w-[40%] lg:w-[25%] rounded-lg p-4 h-96 flex flex-col items-center justify-start border-2 border-gray-400 border-opacity-20'>
     <div className='h-60 flex justify-center items-center gap-4'>
     <Button className='text-white dark:text-black bg-[#02ACC4] dark:bg-[#8ff2ff]' variant="squircle">{icons[0]}</Button>
     <Button className='text-black dark:text-white bg-[#C8D8F4] dark:bg-[#23324e]' variant="circle">{icons[1]}</Button>
